@@ -29,7 +29,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+               "node_modules/jquery/dist/jquery.min.js",
+               "node_modules/jquery-circle-progress/dist/circle-progress.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {

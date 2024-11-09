@@ -2,3 +2,28 @@
 
 <!-- <router-outlet />  -->
 <app-nav></app-nav>
+<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <app-circle-progress [skillName]="'Python'" [percentage]="77"></app-circle-progress>
+      </div>
+      <div class="col-md-4">
+        <app-circle-progress [skillName]="'Web Design'" [percentage]="55"></app-circle-progress>
+      </div>
+      <div class="col-md-4">
+        <app-circle-progress [skillName]="'Web Development'" [percentage]="80"></app-circle-progress>
+      </div>
+    </div>
+  </div>
+
+  <circle-progress
+  [percent]="85"
+  [radius]="100"
+  [outerStrokeWidth]="16"
+  [innerStrokeWidth]="8"
+  [outerStrokeColor]="'#78C000'"
+  [innerStrokeColor]="'#C7E596'"
+  [animation]="true"
+  [animationDuration]="300"
+></circle-progress>
+  
