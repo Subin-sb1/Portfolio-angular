@@ -1,0 +1,61 @@
+<section class=" max-w-screen-xl mx-auto px-4  mt-5" *ngIf="isBrowser">
+    <!-- goals start -->
+    <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-10 text-white">
+        <div >
+            <h1 class="mb-2 text-[30px]">Long term goals</h1>
+            <mat-progress-bar mode="determinate" value="100" ></mat-progress-bar>
+            <ul class="mt-2 list-disc ml-4">
+                <li>fgn</li>
+                <li>fgyhnfnh</li>
+                <li>fgnhds</li>
+                <li>fdsnf</li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="mb-2 text-[30px]">Short term gols</h1>
+            <mat-progress-bar mode="determinate" value="50" ></mat-progress-bar>
+            <ul class="mt-2 list-disc ml-4">
+                <li>sfnh</li>
+                <li>sfgnfg</li>
+                <li>sfgbnfgbn</li>
+                <li>fsgbnfg</li>
+            </ul>
+        </div>
+    </div>
+     <!-- goals end -->
+
+    <app-line [value]="'Skills'"></app-line>
+
+
+    <!-- skills start -->
+    <div class="flex justify-around max-[500px]:flex-col max-[500px]:justify-center max-[500px]:items-center max-[500px]:gap-4" >
+        <circle-progress 
+        [percent]="90"
+        [title]="'Front end'"
+        [subtitle]="'90%'"
+        ></circle-progress>
+
+        <circle-progress 
+        [percent]="80"
+        [title]="'Back end'"
+        [subtitle]="'80%'"
+        ></circle-progress>
+
+        <circle-progress 
+        [percent]="70"
+        [title]="'Python'"
+        [subtitle]="'70%'"
+        ></circle-progress>
+    </div>
+     <!-- skills end -->
+     <app-line [value]="'Qualification'"></app-line>
+ <!-- card start -->
+ <div class="flex justify-around max-[500px]:flex-col max-[500px]:justify-center max-[500px]:items-center max-[500px]:gap-4">
+    <app-card [purl]="'./univ.jpg'" [qul]="'MSC'"></app-card>
+    <app-card [purl]="'./univ2.jpg'" [qul]="'BSC'"></app-card>
+    <app-card [purl]="'./pluss.jpg'" [qul]="'+2'"></app-card>
+ </div>
+  <!-- card end -->
+</section>
+      
+    
