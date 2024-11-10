@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Images
+![text](./others/f.png)
+
+### 🔧 Built With
+
+- [**AngularCLI**](https://angular.dev/cli): A powerful library for building UI components.
+- [**Vite**](https://vitejs.dev/): A blazing fast frontend build tool, making the development process a breeze.
+- [**Tailwind CSS**](https://tailwindcss.com/): A utility-first CSS framework for rapidly building modern user 
+
+
+### 🛠️ Local Setup
+
+You can set up this project locally by following these steps:
+
+```
+git clone https://github.com/Subin-sb1/Portfolio-angular.git
+cd portfolio-angular
+npm install
+ng serve
+```

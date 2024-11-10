@@ -11,9 +11,9 @@ import { CommonModule } from '@angular/common';
 })
 export class NavComponent {
   navigation = [
-    { name: 'Team', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false }
+    { name: 'Home', href: '#', current: false },
+    { name: 'Skills', href: '#', current: false },
+    { name: 'Qualification', href: '#', current: false }
   ];
   isMobile: boolean = false;
 
