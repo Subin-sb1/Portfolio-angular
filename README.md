@@ -7,6 +7,10 @@ https://strong-choux-d5e0a6.netlify.app/
 
 ## Images
 ![text](./others/f.png)
+
+## Mobile view
+<img src="./others/Screenshot_2024-11-10-23-10-59-731_com.android.chrome.png" alt="drawing" width="200" height="400"/>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
