@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 export class NavComponent {
   navigation = [
-    { name: 'Home', href: '#', current: false },
+    { name: 'Home', href: 'https://subinsb.netlify.app/', current: false },
     { name: 'Skills', href: '#', current: false },
     { name: 'Qualification', href: '#qul', current: false }
   ];
