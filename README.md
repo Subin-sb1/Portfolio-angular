@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 
 ## Demo
-https://strong-choux-d5e0a6.netlify.app/
+https://subinn.netlify.app/
 
 ## Images
 ![text](./others/f.png)
